@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Meditales",
+    "slug": "meditales-react",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.talvrikorg.meditalesreact"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.talvrikorg.meditalesreact"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4889f892-68d5-47b6-bd79-ea75c2ed2718"
+      }
+    },
+    "owner": "talvrik-org",
+    "updates": {
+      "url": "https://u.expo.dev/4889f892-68d5-47b6-bd79-ea75c2ed2718"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
