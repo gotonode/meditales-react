@@ -4,9 +4,14 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import LogRocket from '@logrocket/react-native'; // Step 1: Import LogRocket  
+
+LogRocket.init('jafpvq/meditales'); // Step 2: Initialize LogRocket    
 
 export default function HomeScreen() {
+  
   return (
+    
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
@@ -16,7 +21,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome to Meditales!</ThemedText>
+        <ThemedText type="title">Welcome to Meditales ver 2!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>

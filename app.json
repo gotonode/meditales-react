@@ -34,7 +34,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],  
+      "@logrocket/react-native"
     ],
     "experiments": {
       "typedRoutes": true
