@@ -15,7 +15,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "minSdkVersion": 25
       },
       "package": "com.talvrikorg.meditalesreact"
     },
